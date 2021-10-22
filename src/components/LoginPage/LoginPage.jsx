@@ -27,9 +27,10 @@ const LoginPage = () => {
   return (
     <div className="containerStyle">
       <section>
-        <h2 className="title">SAWO React Example App</h2>
-        <h2 className="title">User Logged In : {isUserLoggedIn.toString()}</h2>
-
+        <div className="titleclass">
+        <h1 className="title">Welcome to ecoNet</h1>
+        <h2 className="title">Join us to change the world forever {/*isUserLoggedIn.toString()*/}</h2>
+    </div>
         {!isUserLoggedIn ? (
           <div className="formContainer" id="sawo-container"></div>
         ) : (
