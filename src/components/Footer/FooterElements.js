@@ -35,6 +35,7 @@ flex-direction: column;
 align-items: flex-start;
 margin: 16px;
 text-align: left;
+
 width: 160px;
 box-sizing: border-box;
 color: #fff;
@@ -44,15 +45,16 @@ color: #fff;
     width: 100%;
 }
 `
+
 export const FooterLinkTitle = styled.div`
-font-size: 14px;
+font-size: 18px;
 margin-bottom: 16px;
 `
 export const FooterLink = styled.div`
 color: #fff;
 text-decoration: none;
 margin-bottom: 0.5rem,;
-font-size: 14px;
+font-size: 16px;
 &:hover{
     color: #01bf71;
     transition: 0.3s ease-out;
@@ -88,16 +90,20 @@ font-weight: bold;
 export const WebsiteRight = styled.small`
  color:#fff;
  margin-bottom: 16px;
+ padding-right:1.5rem;
 `
 export const SocialIcons = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
 width: 24px;
+padding-right=2rem;
 
 `
 export const SocialIconLink = styled.a`
 color: #fff;
 font-size: 24px;
+padding-right:.75rem;
+margin-bottom:1.25rem;
 
 `
