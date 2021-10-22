@@ -1,0 +1,30 @@
+.LogoText{
+    color: white;
+    flex: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight:500;
+    font-style: bold;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+}
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+
+.navbar-logo{
+    display:flex;
+}
