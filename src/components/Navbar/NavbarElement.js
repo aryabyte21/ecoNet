@@ -74,13 +74,14 @@ export const NavItem = styled.li`
   }
 `;
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  color:red;
 
   &.active {
     color: #000;

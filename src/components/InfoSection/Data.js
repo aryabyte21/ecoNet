@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc:true,
     topLine:'#goodgreenera',
     headline:'Act, Inspire, Motivate',
-    description:'Share your contributions with the world',
+    description:'Share your contributions towards environment, with the world',
      buttonLabel:'Get Started',
     imgStart:false,
     img:require('../../images/mind.jpg').default,
