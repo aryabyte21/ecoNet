@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Sawo from "sawo";
 import { db, auth } from "../../firebase";
-import {firebase} from "../../firebase";
+import {firebase} from "../User/firebase";
 import "./LoginPage.css";
 import { Route, Redirect } from 'react-router'
 import { createBrowserHistory as history} from 'history';
