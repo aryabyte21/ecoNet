@@ -78,7 +78,7 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                   activeClass="active"
                 >
-                  ToDo
+                  Services
                 </NavLinks>
               </NavItem>
               <NavItem>

@@ -1,0 +1,10 @@
+.animate__flipInY :hover {
+    
+    /* display: inline-block; */
+    margin: 0 0.5rem;
+  
+    animation:flip; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: 1;
+    
+  }

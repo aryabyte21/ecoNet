@@ -35,7 +35,7 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/" className="footerLogo">ecoNet </SocialLogo>
             <WebsiteRight>
-              dolla © {new Date().getFullYear()} All Right Reserved
+              ECONET© {new Date().getFullYear()} All Right Reserved
             </WebsiteRight>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="FaceBook">
