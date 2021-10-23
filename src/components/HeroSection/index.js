@@ -28,8 +28,8 @@ const HeroSection = () => {
         {/* <VideoBg  autoPlay loop muted src={Video} type='video/mp4' /> */}
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Study Made Easy</HeroH1>
-        <HeroP>Sign Up today access all notes and assignment for free</HeroP>
+        <HeroH1>To the #GoodGreenEra</HeroH1>
+        <HeroP>Be a an Eco-nut, SignUp now</HeroP>
         <HeroBtnWrapper>
           <NavLink
             to="/notes/notes"
@@ -39,7 +39,7 @@ const HeroSection = () => {
             dark="true"
             className="btn"
           >
-            Get Started
+            SignUp
           </NavLink>
         </HeroBtnWrapper>
       </HeroContent>

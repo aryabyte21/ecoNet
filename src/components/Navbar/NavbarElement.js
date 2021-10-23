@@ -3,19 +3,15 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
-  height: 80px;
+  background: ${({ scrollNav }) => (scrollNav ? "#01bf71" : "transparent")};
+  height: 70px;
   margin-top: -80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
 
   @media screen and (max-width: 960px) {
-    transition: 0.8s all ease;
+    transition: 1.0s all ease;
   }
 `;
 export const NavbarContainer = styled.nav`
@@ -31,12 +27,16 @@ export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: flex start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 15px;
   font-weight: bold;
   text-decoration: none;
+  &:hover {
+    text-decoration:none;
+    color:#fff;  
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -66,7 +66,12 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 65px;
+  color: #fff;
+  &:hover {
+    transition: all 0.1s ease-in-out;
+    color: #000;  
+  }
 `;
 export const NavLinks = styled(LinkS)`
   color: #fff;
@@ -78,7 +83,9 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    color: #000;
+    transition: all 0.1s ease-in-out;
+    border-bottom: 3px solid #000;
   }
 `;
 export const NavBtn = styled.nav`
@@ -96,7 +103,7 @@ export const NavBtnLink = styled(LinkR)`
   margin-left: 50px;
   margin-right: 0px;
   padding: 10px 22px;
-  color: #010606;
+  color: #fff;
   font-size: 16px;
   outline: none;
   border: none;
@@ -105,7 +112,7 @@ export const NavBtnLink = styled(LinkR)`
   text-decoration: none;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     background: #fff;
     color: #010606;
   }

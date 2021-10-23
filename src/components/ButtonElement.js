@@ -14,10 +14,9 @@ cursor: pointer;
 display:flex;
 justify-content: center;
 align-items:center;
-transition: all 0.2s ease-in-out;
-
+transition: all 0.1s ease-in-out;
 &:hover {
-    transition: all 0.2s ease-in-out;
-    background: ${({primary}) =>(primary ? '#fff' : '#fff')};
+    transition: all 0.1s ease-in-out;
+     background: ${({primary}) =>(primary ? '#fff' : '#000')};
 }
 `

@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              NoTaTo
+              ecoNet
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -82,17 +82,6 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
-                  to="signup"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                  activeClass="active"
-                >
-                  Sign-Up
-                </NavLinks>
               </NavItem>
               <NavBtn>
                 <NavBtnLink to="/login">Log In</NavBtnLink>
