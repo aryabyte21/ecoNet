@@ -23,11 +23,7 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms and Conditions</FooterLink>
+            
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -35,7 +31,7 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/" className="footerLogo">ecoNet </SocialLogo>
             <WebsiteRight>
-              dolla © {new Date().getFullYear()} All Right Reserved
+             
             </WebsiteRight>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="FaceBook">

@@ -22,7 +22,7 @@ export const homeObjTwo = {
     topLine:'#GoodGreenEra',
     headline:'The World is shrinking, so is nature!',
     description:'Get access to all your college notes in a tap!',
-     buttonLabel:'Read More',
+
     imgStart:true,
     img:require('../../images/1.jpg').default,
     alt:'pic',

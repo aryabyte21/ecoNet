@@ -31,16 +31,7 @@ const HeroSection = () => {
         <HeroH1>To the #GoodGreenEra</HeroH1>
         <HeroP>Be a an Eco-nut, SignUp now</HeroP>
         <HeroBtnWrapper>
-          <NavLink
-            to="/notes/notes"
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
-            primary="true"
-            dark="true"
-            className="btn"
-          >
-            SignUp
-          </NavLink>
+      
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

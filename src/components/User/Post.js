@@ -40,7 +40,8 @@ function Post({postId,user,username,caption,imageUrl}) {
         }
    
     return (
-        <div className="post">
+        
+        <div className="post ">
             <div className="post__header">
             <Avatar
             className="post__Avatar"
