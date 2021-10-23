@@ -49,10 +49,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.96;
+  opacity: 0.9;
 }
 .loggedin {
   color: #155724;
   background-color: bisque;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
+  opacity: 0.85;
+  border-radius: 20px;
 }
