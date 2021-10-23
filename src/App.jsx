@@ -1,25 +1,20 @@
-import { Route, Switch } from "react-router-dom";
-import { createBrowserHistory as history} from 'history';
-import LandingPage from "./components/LandingPage/LandingPage";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoginPage from "./components/LoginPage/LoginPage";
-import User from "./components/User/User";
+import Home from "./pages";
 
-
-const App = () => {
+function App() {
   return (
-    <Switch>
-      <Route path="/" exact>
-        <LandingPage />
-      </Route>
-      <Route path="/login">
-        <LoginPage />
-        
-      </Route>
-      <Route path="/user">
-        <User />
-      </Route>
-    </Switch>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+
+        <Route exact path="/login">
+          <LoginPage />
+        </Route>
+      </Switch>
+    </Router>
   );
-};
+}
 
 export default App;
