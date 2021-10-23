@@ -72,6 +72,6 @@ export const ServicesH2 = styled.h2`
   margin-bottom: 10px;
 `;
 export const ServicesP = styled.p`
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
 `;

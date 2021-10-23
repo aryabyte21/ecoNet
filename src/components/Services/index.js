@@ -1,5 +1,5 @@
 import React from "react";
-import 'animate.css';
+
 import Icon1 from '../../images/network.jpg'
 import Icon2 from '../../images/inspire.jpg'
 import Icon3 from '../../images/earn.jpeg'
@@ -13,7 +13,7 @@ const Services = () => {
     <ServicesContainer id="services">
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
-      <div className="animate__animated animate__flipInY">
+      <div>
         <ServicesCard>
           
           <ServicesIcon src={Icon1} />
@@ -31,7 +31,7 @@ const Services = () => {
 
           <ServicesH2>"wouldn't you like to inspire<span>&#191;</span>"</ServicesH2>
           <ServicesP>
-            As the posts are shared, and the positivity spreads, more people get motivated towards serving nature.
+            As you share a post, you spread some positivity. you inspire other's, and together we form a big community to save the nature.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>

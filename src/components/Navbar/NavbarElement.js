@@ -74,6 +74,7 @@ export const NavItem = styled.li`
   }
 `;
 export const NavLinks = styled(LinkS)`
+
   display: flex;
   align-items: center;
   text-decoration: none;
